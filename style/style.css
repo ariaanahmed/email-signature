@@ -12,17 +12,14 @@ body {
     width: 1000px;
     margin: 0 auto;
     display: flex;
-    background-color: #eee;
+    align-items: end;
 }
 .left-div {
-    border-right: 1px solid #000;
-    padding-left: 10px;
+    padding-left: 12px;
     padding-right: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
     background-color: #fff;
-    width: 200px;
-    border-left: 2px solid rgb(20, 138, 235);;
 }
 
 .img-icon{
@@ -46,4 +43,43 @@ body {
     text-decoration: none;
     margin-right: 5px;
     color: rgb(20, 138, 235);
+}
+.icons a i {
+    font-size: 15px;
+}
+/* div-right */
+
+.div-right{
+    padding-left: 14px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-left: 3px solid rgb(20, 138, 235);
+}
+.div-right p{
+    display: flex;
+    align-items: center;
+}
+
+.div-right i {
+    color: rgb(20, 138, 235);
+    margin-right: 14px;
+    width: 18px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.social-item{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(20, 138, 235);
+}
+
+.div-right p a{
+    text-decoration: none;
 }
